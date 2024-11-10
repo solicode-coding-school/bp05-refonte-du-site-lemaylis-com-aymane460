@@ -1,0 +1,1216 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.main-container {
+    width: 100%;
+    height: 10909px;
+    position: relative;
+    background: #c9d3bb;
+    border-radius: 20px;
+    overflow: hidden;
+} 
+.background-image {
+    width: 1440px;
+    height: 1099px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    border-radius: 20px;
+}
+.logo {
+    width: 1267px;
+    height: 730px;
+    left: 88px;
+    top: 938px;
+    position: absolute;
+    border-radius: 18px;
+}
+.NavBar {
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    width: 1170px;
+    padding-left: 49px;
+    padding-right: 49px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    left: 88px;
+    top: 934px;
+    position: absolute;
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+}
+.NavBar a {
+   text-decoration: none;
+   color: black;
+}
+.Home {
+    color: #87724a;
+        font-size: 24px;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+}
+.PrSentation {
+    color: #262626;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.Chambres {
+    color: #262626;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.logo-small {
+    width: 230px;
+     height: 74px
+}
+.Table {
+    color: #262626;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.ActivitS {
+    color: #262626;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.Localisation {
+    color: #262626;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.logo-large {
+    width: 400.19px;
+    height: 167.11px;
+    left: 550px;
+    top: 55px;
+    position: absolute;
+}
+.Rectangle1 {
+    width: 994px;
+      height: 160px;
+      left: 225px;
+      top: 1588px;
+      position: absolute;
+      background: white;
+      border-radius: 10px;
+}
+.Rectangle2 {
+    width: 300px;
+      height: 160px;
+      left: 919px;
+      top: 1588px;
+      position: absolute;
+      background: #d2e0fb;
+      border-radius: 10px;
+}
+
+.Rectangle3 {
+    width: 253px;
+    height: 56px;
+    left: 938px;
+    top: 1640px;
+    position: absolute;
+    background-color: #99a18d;
+    border-radius: 15px;
+}
+.Reserver {
+    left: 985px;
+    top: 1646px;
+    position: absolute;
+    color: white;
+    font-size: 36px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+    background-color: #99a18d;
+    border: none;
+    cursor: pointer;
+}
+.Line1 {
+    width: 161px;
+    height: 0px;
+    left: 457px;
+    top: 1588px;
+    position: absolute;
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+    border: 1px black solid;
+}
+.Line2 {
+    width: 167px;
+    height: 0px;
+    left: 688px;
+    top: 1583px;
+    position: absolute;
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+    border: 1px black solid;
+}
+.Group1 {
+    width: 295px;
+      height: 80px;
+      left: 239px;
+      top: 1641px;
+      position: absolute;
+      font-size: large;
+      border: 2px solid black;
+      border-radius: 5px;
+     background-color: #d2e0fb;
+}
+.Group3 {
+    width: 295px;
+    height: 80px;
+    left: 548px;
+    top: 1641px;
+    position: absolute;
+    font-size: large;
+    border: 2px solid black;
+    border-radius: 5px;
+   background-color: #d2e0fb;
+}
+.jj {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    color: black;
+    font-size: 64px;
+    font-family: Lobster;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.June {
+    left: 85px;
+    top: 19px;
+    position: absolute;
+    color: black;
+    font-size: 36px;
+    font-family: Lobster;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.ChevronDown {
+    width: 30px;
+    height: 30px;
+    left: 176px;
+    top: 35px;
+    position: absolute;
+}
+
+
+
+.Group2 {
+    width: 121px;
+    height: 46px;
+    left: 0px;
+    top: 15px;
+    position: absolute;
+}
+.June {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    color: black;
+    font-size: 36px;
+    font-family: Lobster;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.ChevronDown {
+    width: 30px;
+    height: 30px;
+    left: 91px;
+    top: 16px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex;
+}
+
+.yy {
+    left: 152px;
+        top: 0px;
+        position: absolute;
+        color: black;
+        font-size: 64px;
+        font-family: Lobster;
+        font-weight: 400;
+        word-wrap: break-word;
+}
+.ChevronDown {
+    width: 30px;
+    height: 30px;
+    left: 332px;
+    top: 34px;
+    position: absolute;
+}
+
+.ll {
+    left: 470px;
+      top: 1642px;
+      position: absolute;
+      color: black;
+      font-size: 64px;
+      font-family: Lobster;
+      font-weight: 400;
+      word-wrap: break-word;
+}
+.Rectangle4 {
+    width: 544px;
+    height: 147px;
+    left: 430px;
+    top: 1780px;
+    position: absolute;
+    background: white;
+    border-radius: 30px;
+}
+.Line3 {
+    width: 92px;
+    height: 0px;
+    left: 688px;
+    top: 1802px;
+    position: absolute;
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+    border: 1px black solid;
+}
+.Prix {
+    width: 500px;
+    height: 120px;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-family: Cooper Black;
+    
+    background-color: white;
+    border-radius: 40px;
+    left: 501px;
+      top: 1816px;
+      position: absolute;
+      color: black;
+      font-size: 36px;
+      
+      font-weight: 400;
+      word-wrap: break-word;
+}
+
+   
+.Chombr {
+    left: 775px;
+    top: 1816px;
+    position: absolute;
+    color: black;
+    font-size: 36px;
+    font-family: Lobster;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+
+
+.Rectangle5 {
+    width: 984px;
+      height: 2038px;
+      left: 210px;
+      top: 2094px;
+      position: absolute;
+      background: #99a18d;
+}
+.image-1 {
+    width: 453px;
+    height: 638px;
+    left: 249px;
+    top: 2218px;
+    position: absolute;
+    border-radius: 20px;
+}
+
+
+.image-2 {
+    width: 453px;
+      height: 568px;
+      left: 675px;
+      top: 2880px;
+      position: absolute;
+      border-radius: 20px;
+}
+.image-3 {
+    width: 453px;
+    height: 568px;
+    left: 249px;
+    top: 3472px;
+    position: absolute;
+    border-radius: 20px;
+}
+.PrSentation {
+    width: 319px;
+    height: 25px;
+    left: 750px;
+    top: 2185px;
+    position: absolute;
+    color: black;
+    font-size: 64px;
+    font-family: Lobster;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.LeGTe {
+    left: 845px;
+    top: 2284px;
+    position: absolute;
+    color: white;
+    font-size: 48px;
+    font-family: Lobster;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.description1-text {
+    width: 339px;
+    left: 755px;
+    top: 2372px;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-family: Lobster;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.LeSite {
+    left: 383px;
+      top: 2938px;
+      position: absolute;
+      color: white;
+      font-size: 48px;
+      font-family: Lobster;
+      font-weight: 400;
+      word-wrap: break-word;
+}
+.description2-text {
+    width: 274px;
+      left: 300px;
+      top: 3080px;
+      position: absolute;
+      color: white;
+      font-size: 24px;
+      font-family: Lobster;
+      font-weight: 400;
+      word-wrap: break-word;
+}
+.ALIntRieur {
+    left: 844px;
+      top: 3567px;
+      position: absolute;
+      color: white;
+      font-size: 48px;
+      font-family: Lobster;
+      font-weight: 400;
+      word-wrap: break-word;
+}
+.description3-text {
+    width: 346px;
+    left: 782px;
+    top: 3702px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: Lobster;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.Rectangle6 {
+    width: 1440px;
+    height: 551px;
+    left: 0px;
+    top: 4323px;
+    position: absolute;
+    background: #99a18d;
+}
+.icon {
+    width: 738px;
+    height: 551px;
+    left: 702px;
+    top: 4323px;
+    position: absolute;
+}
+.ww {
+    width: 738px;
+    height: 551px;
+    left: 702px;
+    top: 4323px;
+    position: absolute;
+}
+.Rectangle7 {
+    width: 577px;
+      height: 478px;
+      left: 48px;
+      top: 4346px;
+      position: absolute;
+      background: #99a18d;
+}
+.LesChambres {
+    left: 177px;
+      top: 4359px;
+      position: absolute;
+      color: black;
+      font-size: 64px;
+      font-family: Lobster;
+      font-weight: 400;
+      word-wrap: break-word;
+}
+.TLChargement {
+    width: 155px;
+    height: 115px;
+    left: 106px;
+    top: 4484px;
+    position: absolute;
+}
+.TLChargement1 {
+    width: 155px;
+    height: 115px;
+    left: 106px;
+    top: 4636px;
+    position: absolute;
+}
+.room-description {
+    width: 239px;
+    height: 420px;
+    left: 331px;
+    top: 4484px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: Lobster;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.Rectangle4 {
+    width: 984px;
+    height: 1174px;
+    left: 210px;
+    top: 5048px;
+    position: absolute;
+    background: #fbf3d2;
+}
+.Rectangle8 {
+    width: 672px;
+    height: 1020px;
+    left: 106px;
+    top: 5271px;
+    position: absolute;
+    background: #99a18d;
+}
+.Group7 {
+    width: 305px;
+    height: 375px;
+    left: 473px;
+    top: 5487px;
+    position: absolute;
+}
+.Table2 {
+    width: 279.65px;
+    height: 375px;
+    left: 25px;
+    top: 0px;
+    position: absolute;
+    border-radius: 30px;
+}
+
+
+.Group5 {
+    width: 279.65px;
+      height: 365px;
+      left: 196px;
+      top: 5271px;
+      position: absolute;
+}
+.qq {
+    width: 279.65px;
+    height: 375px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    border-radius: 30px;
+   
+}
+
+
+.Group6 {
+    width: 349.39px;
+    height: 408.66px;
+    left: 195.61px;
+    top: 5813.34px;
+    position: absolute;
+}
+.nn {
+    width: 279.65px;
+    height: 375px;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        border-radius: 30px;
+}
+
+
+.TableDHTes {
+    left: 491px;
+      top: 5144px;
+      position: absolute;
+      color: black;
+      font-size: 64px;
+      font-family: Cooper Black;
+      font-weight: 400;
+      word-wrap: break-word;
+}
+.description-text {
+    width: 204px;
+    left: 865px;
+    top: 5267px;
+    position: absolute;
+    color: black;
+    font-size: 32px;
+    font-family: Cooper Black;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.Group8 {
+    width: 1207px;
+    height: 1366px;
+    left: 106px;
+    top: 6339px;
+    position: absolute;
+}
+.Rectangle17 {
+    width: 1207px;
+    height: 1366px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #99a18d;
+}
+.ActivitS {
+    left: 456px;
+        top: 48px;
+        position: absolute;
+        color: black;
+        font-size: 64px;
+        font-family: Cooper Black;
+        font-weight: 400;
+        word-wrap: break-word;
+}
+.Activities1 {
+    width: 950px;
+        height: 308px;
+        left: 154px;
+        top: 179px;
+        position: absolute;
+}
+.activity-photo-2 {
+    width: 899px;
+        height: 308px;
+        left: 154px;
+        top: 702px;
+        position: absolute;
+}
+.Rectangle18 {
+    width: 548px;
+    height: 76px;
+    left: 344px;
+    top: 435px;
+    position: absolute;
+    background: #d9d9d9;
+}
+.Rectangle19 {
+    width: 590px;
+    height: 93px;
+    left: 329px;
+    top: 958px;
+    position: absolute;
+    background: #d9d9d9;
+}
+.AProximit {
+    left: 481px;
+    top: 973px;
+    position: absolute;
+    color: #99a18d;
+    font-size: 40px;
+    font-family: Cooper Black;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.StagesEtSMinaires {
+    width: 409px;
+    height: 78px;
+    left: 415px;
+    top: 396px;
+    position: absolute;
+    color: #99a18d;
+    font-size: 40px;
+    font-family: Cooper Black;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.seminar-description {
+    width: 432px;
+    left: 404px;
+    top: 520px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Cooper Black;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.activity-list {
+    width: 641px;
+        left: 329px;
+        top: 1084px;
+        position: absolute;
+        color: black;
+        font-size: 20px;
+        font-family: Cooper Black;
+        font-weight: 400;
+        word-wrap: break-word;
+}
+.activity-step-1 {
+    left: 580px;
+    top: 628px;
+    position: absolute;
+    color: black;
+    font-size: 48px;
+    font-family: Cooper Black;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.activity-step-2 {
+    left: 579px;
+    top: 1277px;
+    position: absolute;
+    color: black;
+    font-size: 48px;
+    font-family: Cooper Black;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.activity-step-2 {
+    width: 1209px;
+      height: 1048px;
+      left: 104px;
+      top: 7777px;
+      position: absolute;
+}
+.ContactUs {
+    width: 1313px;
+    height: 601px;
+    left: 63px;
+    top: 10192px;
+    position: absolute;
+}
+.Rectangle10 {
+    width: 1313px;
+    height: 601px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: rgba(153, 161, 141, 0.5);
+    border-radius: 30px;
+}
+
+
+
+
+.Rectangle15 {
+    width: 298.25px;
+        height: 80px;
+        left: 991.81px;
+        top: 28px;
+        position: absolute;
+        background: white;
+        border-radius: 10px;
+}
+
+.Description {
+    width: 621.2px;
+    height: 267px;
+    left: 670.62px;
+    top: 230px;
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+}
+
+.FullName {
+    width: 302.66px;
+    height: 80px;
+    left: 670.62px;
+    top: 28px;
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+   
+}
+.Email {
+    width: 621.2px;
+    height: 80px;
+    left: 670.62px;
+    top: 129px;
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+}
+.PhoneNumber {
+    width: 298.25px;
+        height: 80px;
+        left: 991.81px;
+        top: 28px;
+        position: absolute;
+        background: white;
+        border-radius: 10px;
+        border: none;
+        font-size: medium;
+}
+.contact-icon {
+    width: 647.68px;
+    height: 601px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.Rectangle14 {
+    width: 171.18px;
+        height: 66px;
+        left: 890.33px;
+        top: 516px;
+        position: absolute;
+        background: #99a18d;
+        border-radius: 10px;
+}
+.Send {
+    border: none;
+    width: 56.47px;
+    left: 952.1px;
+    top: 527px;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-family: Source Sans 3;
+    font-weight: 400;
+   background-color: #99a18d;
+   cursor: pointer;
+}
+.Rectangle20 {
+    width: 1143px;
+    height: 981px;
+    left: 141px;
+    top: 7810px;
+    position: absolute;
+    background: rgba(153, 161, 141, 0.75);
+}
+
+
+.Tarifs {
+    left: 604px;
+    top: 7839px;
+    position: absolute;
+    color: black;
+    font-size: 64px;
+    font-family: Cooper Black;
+    font-weight: 400;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+.Rectangle21 {
+    width: 1209px;
+    height: 1100px;
+    left: 104px;
+    top: 8965px;
+    position: absolute;
+    background: #fef9f2;
+}
+.Localisation {
+    left: 532px;
+      top: 9030px;
+      position: absolute;
+      color: black;
+      font-size: 64px;
+      font-family: Cooper Black;
+      font-weight: 400;
+      text-transform: capitalize;
+      word-wrap: break-word;
+}
+.Localisation1 {
+    width: 633px;
+    height: 639px;
+    left: 141px;
+    top: 9244px;
+    position: absolute;
+}
+.location-details {
+    width: 350px;
+    height: 387px;
+    left: 826px;
+    top: 9244px;
+    position: absolute;
+}
+.location-info {
+    color: black;
+    font-size: 32px;
+    font-family: Cooper Black;
+    font-weight: 400;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+.gps-coordinates {
+    color: black;
+    font-size: 32px;
+    font-family: Cooper Black;
+    font-weight: 400;
+    text-decoration: underline;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+.gps-note {
+    color: black;
+    font-size: 32px;
+    font-family: Cooper Black;
+    font-weight: 400;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+.google-map-link {
+    color: black;
+        font-size: 32px;
+        font-family: Cooper Black;
+        font-weight: 400;
+        text-decoration: underline;
+        text-transform: capitalize;
+        word-wrap: break-word;
+}
+.Group10 {
+    width: 1143px;
+    height: 981px;
+    left: 141px;
+    top: 7810px;
+    position: absolute;
+  
+}
+.Rectangle20 {
+    width: 1143px;
+    height: 981px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: rgba(153, 161, 141, 0.75);
+}
+.Group9 {
+    width: 1041px;
+        height: 609.41px;
+        left: 47px;
+        top: 295px;
+        position: absolute;
+}
+.Rectangle17 {
+    width: 798px;
+    height: 609.41px;
+    left: 243px;
+    top: 0px;
+    position: absolute;
+    background: rgba(122, 134, 70, 0.7);
+    border-radius: 15px;
+}
+.sg {
+    width: 57.05px;
+    height: 50.78px;
+    left: 368.09px;
+    top: 148.29px;
+    position: absolute;
+    color: #fef9f2;
+    font-size: 35px;
+    font-family: Source Sans 3;
+    font-weight: 600;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+.jf {
+    width: 57.05px;
+          height: 50.78px;
+          left: 801.51px;
+          top: 148.29px;
+          position: absolute;
+          color: #fef9f2;
+          font-size: 35px;
+          font-family: Source Sans 3;
+          font-weight: 600;
+          text-transform: capitalize;
+          word-wrap: break-word;
+}
+.kf {
+    width: 57.05px;
+    height: 50.78px;
+    left: 801.51px;
+    top: 274.23px;
+    position: absolute;
+    color: #fef9f2;
+    font-size: 35px;
+    font-family: Source Sans 3;
+    font-weight: 600;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+.st {
+    width: 57.05px;
+    height: 50.78px;
+    left: 368.09px;
+    top: 279.31px;
+    position: absolute;
+    color: #fef9f2;
+    font-size: 35px;
+    font-family: Source Sans 3;
+    font-weight: 600;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+.ld {
+    width: 76.38px;
+    height: 50.78px;
+    left: 368.09px;
+    top: 394.08px;
+    position: absolute;
+    color: #fef9f2;
+    font-size: 35px;
+    font-family: Source Sans 3;
+    font-weight: 600;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+.nd {
+    width: 57.05px;
+    height: 50.78px;
+    left: 368.09px;
+    top: 510.88px;
+    position: absolute;
+    color: #fef9f2;
+    font-size: 35px;
+    font-family: Source Sans 3;
+    font-weight: 600;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+
+
+
+
+
+
+.Line5 {
+    width: 1140px;
+    height: 0px;
+    left: 0px;
+    top: 150.7px;
+    position: absolute;
+    border: 1px black solid;
+}
+.StNightMad {
+    width: 213.49px;
+          height: 43.67px;
+          left: 298.15px;
+          top: 29.45px;
+          position: absolute;
+          color: #fef9f2;
+          font-size: 30px;
+          font-family: Source Sans 3;
+          font-weight: 600;
+          text-transform: capitalize;
+          word-wrap: break-word;
+}
+.SubsequentNightsMad {
+    width: 351.53px;
+          height: 43.67px;
+          left: 654.28px;
+          top: 29.45px;
+          position: absolute;
+          color: #fef9f2;
+          font-size: 30px;
+          font-family: Source Sans 3;
+          font-weight: 600;
+          text-transform: capitalize;
+          word-wrap: break-word;
+}
+.SingleRoom {
+    width: 149.08px;
+    height: 62.97px;
+    left: 2px;
+    top: 160.48px;
+    position: absolute;
+    color: black;
+    font-size: 27px;
+    font-family: Cooper Black;
+    font-weight: 400;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+.DoubleRoom {
+    width: 160.12px;
+    height: 62.97px;
+    left: 2px;
+    top: 307.75px;
+    position: absolute;
+    color: black;
+    font-size: 27px;
+    font-family: Cooper Black;
+    font-weight: 400;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+.SuiteUpTo4People {
+    width: 259.5px;
+    height: 62.97px;
+    left: 2px;
+    top: 422.52px;
+    position: absolute;
+    color: black;
+    font-size: 27px;
+    font-family: Cooper Black;
+    font-weight: 400;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+.ChildrenAged612 {
+    width: 241.1px;
+    height: 62.97px;
+    left: 2px;
+    top: 536.28px;
+    position: absolute;
+    color: black;
+    font-size: 27px;
+    font-family: Cooper Black;
+    font-weight: 400;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+
+.Line4 {
+    width: 1030px;
+    height: 0px;
+    left: 9px;
+    top: 136px;
+    position: absolute;
+    border: 1px black solid;
+}
+.Tarifs {
+    left: 463px;
+    top: 29px;
+    position: absolute;
+    color: black;
+    font-size: 64px;
+    font-family: Cooper Black;
+    font-weight: 400;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+.Rectangle22 {
+    width: 1440px;
+    height: 516px;
+    left: 0px;
+    top: 10878px;
+    position: absolute;
+    background: black;
+}
+.footer-logo {
+    width: 201px;
+    height: 78.2px;
+    left: 649px;
+    top: 11203px;
+    position: absolute;
+}
+.FacebookSquareLogo241 {
+    width: 48px;
+      height: 48px;
+      left: 1015px;
+      top: 11218px;
+      position: absolute;
+}
+.InstagramAltLogo241 {
+    width: 48px;
+    height: 48px;
+    left: 1125px;
+    top: 11218px;
+    position: absolute;
+}
+.XTwitterBrandsSolid1 {
+    width: 48px;
+    height: 48px;
+    left: 1235px;
+    top: 11218px;
+    position: absolute;
+}
+.Vector {
+    width: 43.14px;
+    height: 39px;
+    left: 2.51px;
+    top: 4.5px;
+    position: absolute;
+    background: white;
+}
+.address-info {
+    left: 107px;
+     top: 11042px;
+      position: absolute
+}
+.address-text {
+    color: white;
+    font-size: 32px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+.phone-number {
+    color: white;
+    font-size: 32px;
+    font-family: Lobster;
+    font-weight: 400;
+    text-decoration: underline;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+.CopyrightLeMaylis2024 {
+    left: 551px;
+      top: 11311px;
+      position: absolute;
+      color: white;
+      font-size: 32px;
+      font-family: Lobster;
+      font-weight: 400;
+      text-transform: capitalize;
+      word-wrap: break-word;
+}

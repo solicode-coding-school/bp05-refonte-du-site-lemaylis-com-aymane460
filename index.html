@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <img class="background-image" src="images/4.jpg" />
+      <img class="logo" src="images/4.webp" />
+      <div class="NavBar">
+        <a href="#">Home</a>
+          
+         
+        <a href="#">Présentation</a>
+        <a href="#">Chambres</a>
+        <img class="logo-small" src="images/2.png" />
+        <a href="#">Table</a>
+        <a href="#">Activités</a>
+        <a href="#">Localisation</a>
+      </div>
+      <img class="logo-large" src="images/2.png" />
+      <div class="Rectangle1"></div>
+      <div class="Rectangle2"></div>
+      <div class="Rectangle3"></div>
+      <button class="Reserver" onclick="calculatePrice()">Reserver</button>
+      
+      
+      <input type="date" id="startDate" class="Group1">
+      
+      <input type="date" id="endDate" class="Group3">
+      
+    
+      
+      <div class="Rectangle4"></div>
+     
+      
+      <div class="Prix">
+        
+        <p><strong >Days:</strong> <span id="daysDisplay"></span></p>
+        <p><strong >Total Price:</strong> <span id="priceDisplay"></span></p>
+      </div>
+     
+     
+      <div class="Rectangle5"></div>
+      <img class="image-1" src="images/5.jpg" />
+      
+      <img class="image-2" src="images/6.jpg" />
+      <img class="image-3" src="images/7.jpg" />
+      <div class="PrSentation">Présentation</div>
+      <div class="LeGTe">Le gîte</div>
+      <div
+        class="description1-text"
+        
+      >
+        Le Maylis, gîte Rural classé 1ère catégorie, se situe à 25 Km de Tanger
+        en direction d’Asilah. Adossé sur le flanc sud du Jebel Zhirou, il offre
+        une vue magnifique sur les contreforts du Rif. Therese vous accueille
+        dans ce cadre verdoyant, au cœur de la campagne, où tranquillité et
+        confort vous assurent un séjour reposant. Construit sur un terrain de
+        5000 m2, le gîte dispose de 6 chambres doubles et peut recevoir jusqu’à
+        12 personnes.
+      </div>
+      <div class="LeSite">Le site</div>
+      <div class="description2-text">
+        Le bâtiment principal et les bungalows sont agencés dans un grand jardin
+        entouré de figuiers de barbarie et d'un bois d'oliviers sauvages. Les
+        nombreux espaces communs font du gîte un vrai lieu de vie où vous
+        pourrez partager des moments de convivialité en famille ou entre amis.
+      </div>
+      <div class="ALIntRieur">A l'intérieur</div>
+      <div class="description3-text">
+        Salle à manger, salons, bibliothèque et espaces couverts sous les
+        arcades sont à votre disposition pour prendre vos repas ou vous détendre
+        en profitant de la vue sur la campagne environnante.
+      </div>
+      <div class="Rectangle6"></div>
+      <img class="icon" src="images/10.png" />
+      <div class="Rectangle7"></div>
+      <div class="LesChambres">Les chambres</div>
+      <img class="TLChargement" src="images/8.jpg" />
+      <img class="TLChargement1" src="images/9.jpg" />
+      <div class="room-description">
+        Le gîte se compose de 6 chambres pour 2 personnes, dont 2
+        communicantes. Chaque chambre est équipée de rangements et d'une salle
+        de bain avec douche et WC. Elles disposent également d’espaces privatifs
+        en extérieur pour profiter du jardin en toute tranquillité.
+      </div>
+      <div class="Rectangle4"></div>
+      <div class="Rectangle8"></div>
+      <div class="Group7">
+        <img class="Table2" src="images/12.webp" />
+        
+      </div>
+      <div class="Group5">
+        <img class="qq" src="images/11.webp" />
+        
+      </div>
+      <div class="Group6">
+        <img class="nn" src="images/food.jpg" />
+        
+      </div>
+      <div class="TableDHTes">Table d'hôtes</div>
+      <div class="description-text">
+        Le Maylis propose à ses hôtes un service de restauration. Sur demande,
+        nous pouvons vous préparer des repas à base de produits régionaux aux
+        saveurs marocaines ou méditerranéennes.
+      </div>
+      <div class="Group8">
+        <div class="Rectangle17"></div>
+        <div class="ActivitS">Activités</div>
+        <img class="Activities1" src="images/13.jpg" />
+        <img class="activity-photo-2" src="images/14.jpg" />
+        <div class="Rectangle18"></div>
+        <div class="Rectangle19"></div>
+        <div class="AProximit">A proximité</div>
+        <div class="StagesEtSMinaires"><br />Stages et séminaires</div>
+        <div class="seminar-description">
+          Les espaces utilisables en intérieur comme en extérieur font du gîte
+          un lieu idéal pour des séminaires ou des stages pour des groupes
+          jusqu'à 12 personnes.
+        </div>
+        <div class="activity-list">
+          La randonnée pour découvrir les richesses des paysages de la région
+          (possibilité d'être accompagné par un guide professionnel).<br />Le
+          quad avec « Tanger quad ».<br />Les balades à cheval sur la plage ou
+          en forêt avec le Royal Club équestre de Tanger.<br />L'initiation à la
+          plongée à « La Piscine » (plage de Sidi Kacem).
+        </div>
+        <div class="activity-step-1">01</div>
+        <div class="activity-step-2">02</div>
+      </div>
+      <img class="activity-step-2" src="images/15.jpg" />
+      <div class="ContactUs">
+        <div class="Rectangle10"></div>
+       
+        
+        <div class="Rectangle15"></div>
+        <div class="Rectangle13"></div>
+        <input type="text" class="Description" placeholder="Description">
+        <input type="text" placeholder="FullName" class="FullName">
+        <input type="email" class="Email" placeholder="Email">
+        <input type="text" placeholder="Phone Number" class="PhoneNumber">
+        <img class="contact-icon" src="images/16.webp" />
+        <div class="Rectangle14"></div>
+        <button class="Send">send</button>
+      </div>
+      <div class="Group10">
+    <div class="Rectangle20"></div>
+    <div
+      class="Group9">
+      <div class="Rectangle17"></div>
+      <div class="sg">
+        500
+      </div>
+      <div class="jf">
+        250
+      </div>
+      <div class="kf">
+        400
+      </div>
+      <div class="st">
+        800
+      </div>
+      <div class="ld">
+        1200
+      </div>
+      <div class="nd">
+        150
+      </div>
+      
+      <div class="Line4"></div>
+      
+      <div class="StNightMad">
+        1st Night (MAD)
+      </div>
+      <div class="SubsequentNightsMad">
+        Subsequent Nights (MAD)
+      </div>
+      <div class="SingleRoom">
+        Single Room
+      </div>
+      <div class="DoubleRoom">
+        Double Room
+      </div>
+      <div class="SuiteUpTo4People">
+        Suite (Up to 4 people)
+      </div>
+      <div class="ChildrenAged612">
+        Children (Aged 6-12)
+      </div>
+    </div>
+    <div class="Line5"></div>
+    <div class="Tarifs">
+      Tarifs
+    </div>
+  </div>
+      
+      <div class="Rectangle21"></div>
+      <div class="Localisation">Localisation</div>
+      <iframe class="Localisation1" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12963.93274428359!2d-5.8613515!3d35.677416!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0b85d38b8ba60f%3A0x625ee5e862ac95ae!2sLe%20Maylis!5e0!3m2!1sen!2sma!4v1731009314183!5m2!1sen!2sma" 
+      width="600"
+      height="450"
+      style="border: 0;"
+      allowfullscreen=""
+      loading="lazy"
+      >
+
+      </iframe>
+      <div class="location-details">
+        <span class="location-info"
+          >Le Maylis se situe à 25 Km de Tanger en direction d’Asilah, à
+          proximité des autoroutes A1 et A4, et de l’aéroport international Ibn
+          Battouta<br /><br />Coordonnées GPS : N 35°40'38.2'' W 005°51'38.6''
+          (</span
+        ><span class="gps-coordinates">35.677481,-5.861201</span
+        ><span class="gps-note">)<br /></span
+        ><span class="google-map-link">Lien GoogleMap</span>
+      </div>
+    </div>
+    <div
+    class="Rectangle22"></div>
+  <img class="footer-logo"
+    src="images/2.png" />
+  <img
+    class="FacebookSquareLogo241"
+   
+    src="images/facebook.png"
+  />
+  <img
+    class="InstagramAltLogo241"
+    
+    src="images/instagram.png"
+  />
+  <div
+    class="XTwitterBrandsSolid1"
+    
+  >
+    <div
+      
+    ></div>
+  </div>
+  <div
+    class="address-info">
+    <span class="address-text">Le Maylis</span>
+    <br>
+    <span class="address-text">Douar Bougdour</span>
+        <br>
+        <span class="address-text">Commune Rurale Hajr N'Hal</span>
+        <br>
+        <span class="address-text">Tanger - Maroc</span>
+        
+        <br>
+        <span class="address-text">Tel: </span>
+        <span
+    class="phone-number"
+     
+      >+ 212 6 66 54 90 33</span
+    >
+  </div>
+  <div
+    class="CopyrightLeMaylis2024"
+   
+  >
+    Copyright © Le Maylis 2024
+  </div>
+</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
